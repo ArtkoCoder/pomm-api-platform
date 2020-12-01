@@ -1,15 +1,21 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:ArtkoCoder/pomm-api-platform.git"
+        }
+    ],
     "require": {
         "php": ">=7.0",
-        "api-platform/core": "~2.0",
-        "symfony/symfony": "~3.0",
-        "symfony/assetic-bundle": "~2.7",
-        "symfony/monolog-bundle": "~3.0",
-        "pomm-project/pomm-bundle": "~2.4",
+        "api-platform/core": "^2.5",
+        "symfony/asset": "5.1.*",
+        "symfony/framework-bundle": "5.1.*",
+        "symfony/monolog-bundle": "^3.5",
+        "pomm-project/pomm-bundle": "^3.0",
         "pomm-project/api-platform": "dev-master"
     },
     "require-dev": {
-        "behatch/contexts": "~2.6",
+        "behatch/contexts": "^3.3",
         "behat/mink-goutte-driver": "*"
     },
     "autoload": {

@@ -50,7 +50,7 @@ final class Paginator implements \IteratorAggregate, PaginatorInterface
 
     public function count()
     {
-        return $this->paginator->getTotalItems();
+        return $this->paginator->getResultCount();
     }
 
     public function getIterator()
